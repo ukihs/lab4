@@ -1,0 +1,22 @@
+#1
+speed(1000000000000);
+pen(purple, 1);
+for (var j = 0; j < 1; ++j) {
+  label('c');
+  lt(30);
+  fd(100);
+  lt(90);
+  label('b');
+  lt(30);
+  fd(100);
+  lt(90);
+  label('a');
+  lt(30);
+  fd(100);
+  lt(90);
+  for (var j = 1; j < 364; ++j) {
+    lt(30);
+    fd(100);
+    lt(90);
+  }
+}
