@@ -20,3 +20,47 @@ for (var j = 0; j < 1; ++j) {
     lt(90);
   }
 }
+
+#2
+color = [red,green,blue,black];
+speed(10);
+d = 10;
+d2 = d/2;
+for (var j = 0; j<30;++j){
+  c = color[j%4];
+  pen(c);
+  fd(d);
+  rt(90);
+  d += d2
+  }
+
+
+#3
+for (var j = 10; j > 0; --j) {
+  for (var a = 0; a < j ; ++a) {
+    type('*');
+  }
+  typeline();
+}
+
+#4
+pen(purple, 1);
+speed(10);
+for (var j = 0; j < 6; ++j) {
+  rt(60);
+  for (var k = 0; k < 4; ++k) {
+    fd(45);
+    lt(90);
+  }
+}
+
+#5
+pen(purple, 1);
+speed(10);
+for (var j = 0; j < 6; ++j) {
+  rt(60);
+  for (var k = 0; k < 4; ++k) {
+    fd(45);
+    lt(120);
+  }
+}
